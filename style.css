@@ -1,0 +1,246 @@
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFFEFA;
+}
+
+/* Hero Section  */
+
+#hero {
+    padding-top: 100px;
+    background: url('images/Hero-bg.png');
+}
+#hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 87.5%;
+    margin: 0 auto;
+}
+#hero-content {
+    width: 57.06%;
+    align-self: flex-end;
+}
+#hero-content h1 {
+    font-size: 48px;
+}
+#hero-content h1 span {
+    color: #872BFF;
+}
+#hero-content p {
+    font-size: small;
+    color: #8A8A8A;
+    margin-top: 20px;
+}
+#hero-content .hero-btn {
+    margin-top: 10px;
+}
+#hero-content .hero-btn .btn-1 {
+    border: none;
+    border-radius: 25px;
+    padding: 8px 12px;
+    background-color: #872BFF;
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    box-shadow: 0 11px 31px 0 #8c8c8c;
+}
+#hero-content .hero-btn .btn-2 {
+    border: 0.5px solid #872BFF;
+    border-radius: 25px;
+    padding: 8px 12px;
+    font-size: 10px;
+    color: #0D1321;
+    font-weight: bold;
+}
+
+/* Skills Section  */
+
+#skills {
+    margin: 30px 20px 0px 20px;
+}
+#skills #name {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #6A14DA;
+    font-size: 20px;
+}
+#skills h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#block-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#html, #css, #javascript {
+    text-align: center;
+    margin: 20px 16px;
+    box-shadow: 2px 4px 8px rgb(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 8px;
+    padding: 20px 12px;
+    line-height: 2.5;
+}
+#html a, #css a, #javascript a {
+    color: #0D1321;
+    font-weight: bold;
+}
+#block-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#react, #nextjs, #metarialui {
+    text-align: center;
+    margin: 20px 16px;
+    box-shadow: 2px 4px 8px rgb(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 8px;
+    padding: 20px 12px;
+    line-height: 2.5;
+}
+#react a, #nextjs a, #metarialui a {
+    color: #0D1321;
+    font-weight: bold;
+}
+#block-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#typescript, #redux, #socket {
+    text-align: center;
+    margin: 20px 16px;
+    box-shadow: 2px 4px 8px 0px rgb(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 8px;
+    padding: 20px 12px;
+    line-height: 2.5;
+}
+#typescript a, #redux a, #socket a {
+    color: #0D1321;
+    font-weight: bold;
+}
+
+/* Projects Section  */
+
+#projects {
+    margin: 30px 20px 0px 20px;
+}
+#projects #p-name {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #6A14DA;
+    font-size: 20px;
+}
+#projects h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#p-1, #p-2, #p-3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    padding: 12px 12px;
+}
+.unit {
+    margin-left: 18px;
+}
+.p-img {
+    border: none;
+    border-radius: 16px;
+}
+.u-2 {
+    align-self: center;
+    line-height: 1.8;
+}
+.u-2 h2,
+.u-2 span,
+.u-2 p,
+.u-2 button {
+    margin-top: 12px;
+}
+.u-2 button {
+    background-color: #872BFF;
+    border: none;
+    border-radius: 22px;
+    padding: 12px;
+    font-weight: bold;
+    color: #FFFEFA;
+}
+
+/* Experience Section */
+
+#experience {
+    margin: 50px 20px;
+}
+#title p {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #6A14DA;
+    font-size: 20px;
+}
+#title h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#company {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+.brand {
+    border: 1px solid rgba(173, 173, 173, 0.356);
+    border-radius: 16px;
+    padding: 12px;
+    margin: 12px 5px;
+    box-shadow: 2px 4px 5px 0 #8c8c8c;
+}
+#branding-btn {
+    text-align: center;
+}
+#branding-btn button {
+    background-color: #872BFF;
+    border: none;
+    border-radius: 22px;
+    padding: 12px;
+    font-weight: bold;
+    color: #FFFEFA;
+}
+
+/* Footer Section */
+
+#footer-content {
+    width: 87.5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.f-unit-1 p {
+    font-size: 12px;
+    color: #5B5757;
+}
+.f-unit-2 img {
+    margin-left: 16px;
+}
